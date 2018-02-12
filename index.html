@@ -5,32 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title></title>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <style>
+        * {
+  box-sizing: border-box; }
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #010101;
+  color: #ddd;
+  align-items: center;
+  display: flex; }
+  @media (max-width: 850px) {
+    body {
+      display: block; } }
+
+.name,
+.about {
+  display: inline-block;
+  padding: 0 20px;
+  width: 50%; }
+  @media (max-width: 850px) {
+    .name,
+    .about {
+      display: block;
+      width: 100%; } }
+
+.name {
+  font-family: Montserrat;
+  text-align: right; }
+  @media (max-width: 850px) {
+    .name {
+      margin: 4em 0;
+      text-align: center; } }
+
+.about {
+  border-left: 2px solid #ddd;
+  font-family: Muli; }
+  @media (max-width: 850px) {
+    .about {
+      border: 0; } }
+  .about p {
+    font-size: 14px;
+    margin: 1.5em 0;
+    width: 400px; }
+    @media (max-width: 850px) {
+      .about p {
+        display: block;
+        margin: 1.5em auto; } }
+    @media (max-width: 440px) {
+      .about p {
+        width: 100%; } }
+
+a {
+  color: #ddd;
+  font-weight: 900;
+  text-decoration: none;
+  transition: color .318s; }
+  a:hover {
+    color: #c9ff01; }
 
     </style>
   </head>
   <body>
-    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-	<div class="container">
-	<div class="row">
-	 <div class="col-md-3 col-xs-3" align="center"><a href="https://github.com/vinothkumarrenganathan" target="_blank"><img src="img/github-logo.png" id="github"/></div>
-	 <div class="col-md-3 col-xs-3" align="center"><a href="https://stackoverflow.com/users/2265998/htoniv" target="_blank"><img src="img/stack-overflow.png" id="stackoverflow"/></div>
-	 <div class="col-md-3 col-xs-3" align="center"><a href="https://www.linkedin.com/in/vinoth-kumar-ba5aa323/" target="_blank"><img src="img/linkedin-logo.png" id="linkedin"/></div>
-	 <div class="col-md-3 col-xs-3" align="center"><a href="https://www.facebook.com/vinothkumar.renganathan" target="_blank"><img src="img/facebook-logo.png" id="facebook"/></div>
-	</div>
-</div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>
+    <div class="name">
+      <h1><a href="/">Vinoth Kumar</a></h1>
+    </div>
 
-    </script>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <div class="about">
+      <div>
+        <p>
+          I'm a self taught UI developer based in Chennai, India
+        </p>
+
+        <p>
+          I'm currently building a web apps
+          <a href="/">test</a> to help people
+        </p>
+
+        <p>
+          You can see some of my projects on
+          <a href="https://github.com/vinothkumarrenganathan">GitHub</a>
+        </p>
+
+        <p>
+          If you want to have a chat or ask me anything you can shoot me an
+          email at <a href="mailto:vinoth.vinothrenga@gmail.com">angelo@nglgzz.com</a>
+        </p>
+
+        <p>
+          Other places where you can find me are<br>
+          <a href="https://github.com/vinothkumarrenganathan">GitHub</a> |
+          <a href="https://github.com/vinothkumarrenganathan">Twitch</a> |
+          <a href="https://github.com/vinothkumarrenganathan">Reddit</a> |
+          <a href="https://github.com/vinothkumarrenganathan">Medium</a> |
+          <a href="https://github.com/vinothkumarrenganathan">Linkedin</a>
+        </p>
+      </div>
+
+    </div>
+
   </body>
 </html>
